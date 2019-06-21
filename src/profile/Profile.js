@@ -11,3 +11,8 @@ export default class Profile extends Component {
         )
     }
 }
+
+//profile page should display the users profile,  allow the profile to be edited, upload an image etc 
+//the profile will download from a rest call and be displayed.
+//there will be a separate component to upload a new profile.
+//
