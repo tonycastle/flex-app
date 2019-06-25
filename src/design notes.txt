@@ -6,3 +6,5 @@
 6. each exercise has data regarding number of reps, weight, volume etc (measurables).
 7. The user can add / delete a workout / edit a workout (including details of each exercise ie number of reps etc).
 8. The user can create a custom exercise - defining it's measurables eg weight, distance, time etc
+9. there should be a sign in /sign up page. sign up creates a new profile
+10. usign in page should support login via social media - TODO check for npm modules that can add this without reinventing the wheel
