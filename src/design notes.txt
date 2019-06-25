@@ -9,4 +9,5 @@
 9. there should be a sign in /sign up page. sign up creates a new profile
 10. usign in page should support login via social media - TODO check for npm modules that can add this without reinventing the wheel
 11. add error checking for all rest calls
-12. create 
+12. form submissions should be checked for missing - bad data and visual feedback provided.
+13. add tests folder and set up unit testing
