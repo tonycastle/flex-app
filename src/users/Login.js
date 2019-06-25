@@ -11,29 +11,33 @@ export default class Login extends Component{
         }
     }
 
-    handleEmailChange = event =>{
+    handleUserChange = event =>{
         this.setState(
-            {username: event.value}
+            {username: event.target.value}
         )
     }
 
     handlePasswordChange = event =>{
         this.setState(
-            {password: event.value}
+            {password: event.target.value}
         )
+    }
+
+    login = ()=>{   
+            alert('Email/User is ' + this.state.username + ' Password is ' + this.state.password);            
     }
 
     render(){
         return(
             <form className='loginForm'>
                 <h2>Please sign in</h2>
-                <label for='inputEmail'>Email:</label>
-                <input type='email' 
-                    id='inputEmail' 
+                <label for='inputUser'>Email:</label>
+                <input type='user' 
+                    id='inputUser' 
                     className='form-control'
-                    placeholder='your email' required autofocus
-                    value={this.state.email}
-                    onChange = {this.handleEmailChange} />
+                    placeholder='your email/username' required autofocus
+                    value={this.state.username}
+                    onChange = {this.handleUserChange} />
                 <label for='inputPassword'>Password:</label>
                 <input type='password'
                     id='inputPassword'
@@ -41,8 +45,10 @@ export default class Login extends Component{
                     placeholder='your password' required
                     value={this.state.password} 
                     onChange={this.handlePasswordChange} />
-                <button className='btn btn-lg btn-primary btn-block'
-                    type='button'>sign in</button>
+                <button 
+                    className='btn btn-lg btn-primary btn-block'
+                    type='button'
+                    onClick={this.login}>sign in</button>
             </form>
         )
     }

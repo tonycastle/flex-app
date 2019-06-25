@@ -8,3 +8,5 @@
 8. The user can create a custom exercise - defining it's measurables eg weight, distance, time etc
 9. there should be a sign in /sign up page. sign up creates a new profile
 10. usign in page should support login via social media - TODO check for npm modules that can add this without reinventing the wheel
+11. add error checking for all rest calls
+12. create 

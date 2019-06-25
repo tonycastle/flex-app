@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Profile from './profile/Profile'
-import Login from './Login'
+import Profile from './users/Profile'
+import Login from './users/Login'
+import Register from './users/Register'
 
 const baseUrl = 'http://localhost:3012/'
 
