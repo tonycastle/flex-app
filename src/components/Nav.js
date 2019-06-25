@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { whileStatement } from '@babel/types';
 
 const Nav = () => {
 

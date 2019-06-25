@@ -11,7 +11,7 @@ export default class Profile extends Component {
 
     //TODO need to add error handling here
     componentDidMount(){
-        fetch(`${this.props.baseURL}profile/1`)
+        fetch(this.props.baseURL+'profile/1')
         .then(function(response){
             return response.json()
         })

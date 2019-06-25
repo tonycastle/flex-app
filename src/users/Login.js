@@ -30,14 +30,14 @@ export default class Login extends Component{
         return(
             <form className='loginForm'>
                 <h2>Please sign in</h2>
-                <label for='inputUser'>Email:</label>
+                <label htmlFor='inputUser'>Email:</label>
                 <input type='user' 
                     id='inputUser' 
                     className='form-control'
                     placeholder='your email/username' required autofocus
                     value={this.state.username}
                     onChange = {this.handleUserChange} />
-                <label for='inputPassword'>Password:</label>
+                <label htmlFor='inputPassword'>Password:</label>
                 <input type='password'
                     id='inputPassword'
                     className='form-control'

@@ -14,7 +14,10 @@ export default class App extends Component{
                 <Nav />
                 <Switch>
                  <Route path='/' exact component={Login}></Route>
-                 <Route path='/profile' exact component={Profile}></Route>
+                 <Route 
+                    path='/profile'
+                     render ={(props)=><Profile {...props} baseURL={this.props.baseURL} />} 
+                 />
                  <Route path='/register' exact component={Register}></Route>
                 </Switch>
             </Router>
