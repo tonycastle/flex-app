@@ -1,0 +1,8 @@
+1. The app is to track gym sessions and workouts
+2. The app should have a user profile section.
+3. add profile, edit profile, delete profile.
+4. user has a workout history
+5. each workout contains a number of exercises with data about each xeercise done.
+6. each exercise has data regarding number of reps, weight, volume etc (measurables).
+7. The user can add / delete a workout / edit a workout (including details of each exercise ie number of reps etc).
+8. The user can create a custom exercise - defining it's measurables eg weight, distance, time etc
