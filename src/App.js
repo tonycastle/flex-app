@@ -11,7 +11,10 @@ export default class App extends Component{
     render(){
         return(
             <Router>
-                <Nav />
+                <div id='header'>
+                    <h1>FLEX</h1>
+                    <Nav />
+                </div>
                 <Switch>
                  <Route path='/' exact component={Login}></Route>
                  <Route 

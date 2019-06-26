@@ -1,18 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import '../app.css'
 
 const Nav = () => {
-
-    const navStyle = {
-        color: 'blue',
-        lineStyle: 'none'
-    }
     return (
-        <section>
+        <section id='navbar'>
             <ul>
-                <li><Link style = {navStyle} to='/Profile'>Profile</Link></li>
-                <li><Link style = {navStyle} to='/Register'>Register</Link></li>
-                <li><Link style = {navStyle} to='/Contact'>Contact</Link></li>
+                <li className='navlinks'><Link to='/Profile'>Profile</Link></li>
+                <li className='navlinks'><Link to='/Register'>Register</Link></li>
+                <li className='navlinks'><Link to='/Contact'>Contact</Link></li>
             </ul>
         </section>
     );

@@ -2,6 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
+import './app.css'
 
 const baseUrl = 'http://localhost:3012/'
 
